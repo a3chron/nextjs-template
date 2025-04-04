@@ -1,6 +1,4 @@
 import type { Config } from "tailwindcss";
-const defaultTheme = require("tailwindcss/defaultTheme");
-
 
 const config: Config = {
   content: [
@@ -11,8 +9,8 @@ const config: Config = {
   theme: {
     extend: {
       fontFamily: {
-				plex: ["IBM Plex", defaultTheme.fontFamily.mono],
-			},
+        plex: ["IBM Plex Mono", "Menlo", "monospace"],
+      },
     },
   },
   plugins: [],
